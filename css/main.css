@@ -25,29 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a         { color: #000099; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts li {
-  line-height: 1.75em;
-}
-
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
+a:visited { color: #000099; }
 
 /*****************************************************************************/
 /*
@@ -74,7 +54,7 @@ a:visited { color: #a0a; }
 }
 
 .title a {
-  color: #a00;
+  color: #000099;;
 }
 
 .title a:hover {
@@ -123,38 +103,20 @@ a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
-/* Posts
+/* Home
 /*
 /*****************************************************************************/
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+.profile-picture {
+  width: 400px;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
+/*****************************************************************************/
+/*
+/* Research
+/*
+/*****************************************************************************/
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+.research-list {
+  list-style-position: inside;
 }
