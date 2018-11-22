@@ -123,6 +123,8 @@ a:visited { color: #000099; }
 .profile-section {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-picture {
