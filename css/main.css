@@ -66,7 +66,12 @@ a:visited { color: #000099; }
   margin-left: 1em;
 }
 
-.header a.extra:hover {
+.header a.extra:hover,
+.header a.active {
+  color: #000;
+}
+
+.header {
   color: #000;
 }
 
