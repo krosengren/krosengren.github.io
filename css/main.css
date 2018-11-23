@@ -103,7 +103,7 @@ section {
 .subsection-header {
   font-size: 1.3em;
   line-height: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
 }
 
 .footer {
@@ -220,7 +220,6 @@ section {
 
 .book-img-container img {
   display: block;
-  margin: auto;
   max-height: 220px;
 }
 
