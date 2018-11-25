@@ -26,9 +26,13 @@ h1, h2, h3, h4, h5, h6 {
 
 p { margin: 0 0 1em 0; }
 
-a         { color: #000099; }
-a:hover   { color: #000; }
-a:visited { color: #000099; }
+a         {
+  color: #0000bb;
+  text-decoration: none;
+}
+a:hover   {
+  color: #000;
+}
 
 /*****************************************************************************/
 /*
@@ -63,10 +67,6 @@ a:visited { color: #000099; }
 
 .title a {
   color: #000099;;
-}
-
-.title a:hover {
-  color: #000;
 }
 
 .header a.extra {
@@ -225,6 +225,10 @@ section {
 .book-img-container img {
   display: block;
   max-height: 220px;
+}
+
+.book-link:hover {
+  color: black;
 }
 
 @media only screen and (max-width: 1100px) {
