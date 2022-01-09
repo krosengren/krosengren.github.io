@@ -44,7 +44,7 @@ a:hover   {
   background: #FFF;
   margin: auto;
   font-size: 115%;
-  text-align: justify;
+  text-align: left;
   line-height: 1.5em;
   max-width: 1200px;
 }
